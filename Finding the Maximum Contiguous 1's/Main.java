@@ -1,0 +1,1 @@
+import java.util.Scanner; public class Main { public static void main(String args[]) { int a,i,count=0; Scanner sc =new Scanner(System.in); a=sc.nextInt(); int b[]= new int[a]; for(i=0;i<a;i++) { b[i]=sc.nextInt(); } for(i=0;i<a;i++) { if(b[i]!=0) { count++; if(b[i]==0) { break; } } } System.out.print(count-1); } }
